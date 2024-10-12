@@ -7,7 +7,7 @@ from groq import Groq
 
 # streamlit page configuration
 st.set_page_config(
-    page_title="LLAMA 3.1. Chat",
+    page_title="Chatbot",
     page_icon="🦙",
     layout="centered"
 )
@@ -28,7 +28,7 @@ if "chat_history" not in st.session_state:
 
 
 # streamlit page title
-st.title("🦙 LLAMA 3.1. ChatBot")
+st.title("ChatBot, Build with LLAMA model and Strealit")
 
 # display chat history
 for message in st.session_state.chat_history:
@@ -37,7 +37,7 @@ for message in st.session_state.chat_history:
 
 
 # input field for user's message:
-user_prompt = st.chat_input("Ask LLAMA...")
+user_prompt = st.chat_input("Ask chatbot...")
 
 if user_prompt:
 
