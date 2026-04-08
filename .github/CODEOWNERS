@@ -1,0 +1,8 @@
+# Default reviewer for everything
+* @ravi.ranjan1
+
+# Specific reviewer for frontend files
+/frontend/ @frontend-dev
+
+# Specific reviewer for backend
+/backend/ @backend-dev
