@@ -1,8 +1,2 @@
 # Default reviewer for everything
 * @dogandcalf-arch
-
-# Specific reviewer for frontend files
-/frontend/ @frontend-dev
-
-# Specific reviewer for backend
-/backend/ @backend-dev
