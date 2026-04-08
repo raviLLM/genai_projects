@@ -1,5 +1,5 @@
 # Default reviewer for everything
-* @ravi.ranjan1
+* @dogandcalf-arch
 
 # Specific reviewer for frontend files
 /frontend/ @frontend-dev
